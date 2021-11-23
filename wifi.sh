@@ -1,6 +1,5 @@
 echo $USER | xclip -sel clip
 clipboard_content=`xclip -o -selection clipboard`
-#echo "$clipboard_content"
 if [ "$clipboard_content" != "root" ]
 then
 	echo "You must be Root"
